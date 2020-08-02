@@ -1,4 +1,4 @@
-/* EDITAN: 
+/* EDITAN:
 1. Ubah penggunaan variable "m" ke "map", mengikuti settingan QGIS2web
 2. Hapus scrollWheelZoomap
 3. Ubah tampilan tombol upload
@@ -58,7 +58,7 @@ require(['catiline'], function(cw) {
                 scope.layer(json, name, scope);
             }
         },layer:function(json,name,scope){
-            
+
             json.features.forEach(function(feature){
                 feature.properties.__color__ = scope.color(feature);
             });
@@ -76,7 +76,7 @@ require(['catiline'], function(cw) {
     }
 
     function handleZipFile(file) {
-        
+
         var reader = new FileReader();
         reader.onload = readerLoad;
         reader.readAsArrayBuffer(file);
@@ -137,10 +137,10 @@ require(['catiline'], function(cw) {
         var doneButton = L.DomUtil.create('button', "btn  btn-primary", div);
         doneButton.type = "button";
         doneButton.innerHTML = '<span class="fa fa-upload"></span>';
-        doneButton.addEventListener("mouseover", function() {   
-            doneButton.innerHTML = 'Upload File (or Drag and Drop Anywhere)<br />GeoJSON, TopoJSON, or Zipped Shapefile';
+        doneButton.addEventListener("mouseover", function() {
+            doneButton.innerHTML = 'Unggah file (atau <i>drag</i> dan <i>drop</i> file)<br />GeoJSON atau Shapefile dalam zip';
           });
-        doneButton.addEventListener("mouseout", function() {   
+        doneButton.addEventListener("mouseout", function() {
             doneButton.innerHTML = '<span class="fa fa-upload"></span>';
         });
         L.DomEvent.addListener(doneButton, "click", function() {
