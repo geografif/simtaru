@@ -48,7 +48,6 @@
         <script src="data/KabKutaiTimur_10.js"></script>
         <script src="data/KabBerau_11.js"></script>
         <script src="data/ProvinsiKalimantanTimur_12.js"></script>
-		<script src="js/leaflet.groupedlayercontrol.js"></script>
         <script>
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
@@ -3323,7 +3322,7 @@
             style: style_ProvinsiKalimantanTimur_12_0,
         });
         bounds_group.addLayer(layer_ProvinsiKalimantanTimur_12);
-        //map.addLayer(layer_ProvinsiKalimantanTimur_12);
+        map.addLayer(layer_ProvinsiKalimantanTimur_12);
             var abstract = new L.Control({'position':'bottomleft'});
             abstract.onAdd = function (map) {
                 this._div = L.DomUtil.create('div',
@@ -3339,26 +3338,9 @@
                     this._div.innerHTML = 'Lihat status peruntukan kawasan berdasarkan Peta Rencana Pola Ruang pada Rencana Tata Ruang Provinsi dan Kabupaten/Kota di Provinsi Kalimantan Timur';
             };
             abstract.addTo(map);
-        var baseMaps = {};
-
+        var baseMaps = {"OpenStreetMap Monochrome": layer_OpenStreetMapMonochrome_2,"Maxar": layer_Maxar_1,"Google Satellite Hybrid": layer_GoogleSatelliteHybrid_0,};
         // EDITAN: set variable 'lc', biar tidak perlu mengubah script bawaan dari webgis draganddrop
-
-    //var lc = L.control.layers(baseMaps,{'Provinsi Kalimantan Timur<br />': layer_ProvinsiKalimantanTimur_12,'Kab. Berau<br />': layer_KabBerau_11,'Kab. Kutai Timur<br />': layer_KabKutaiTimur_10,'Kota Bontang<br />': layer_KotaBontang_9,'Kota Samarinda<br />': layer_KotaSamarinda_8,'Kutai Kartanegara<br />': layer_KutaiKartanegara_7,'Kab. Kutai Barat<br />': layer_KabKutaiBarat_6,'Kota Balikpapan<br />': layer_KotaBalikpapan_5,'Kab. Penajam Paser Utara<br />': layer_KabPenajamPaserUtara_4,'Kab. Paser<br />': layer_KabPaser_3,}).addTo(map);
-    var groupedOverlays = {
-      "Rencana Pola Ruang Provinsi": {
-        'Provinsi Kalimantan Timur<br />': layer_ProvinsiKalimantanTimur_12,
-      },
-      "Rencana Pola Ruang Kabupaten/Kota": {
-        'Kab. Berau<br />': layer_KabBerau_11,'Kab. Kutai Timur<br />': layer_KabKutaiTimur_10,'Kota Bontang<br />': layer_KotaBontang_9,'Kota Samarinda<br />': layer_KotaSamarinda_8,'Kutai Kartanegara<br />': layer_KutaiKartanegara_7,'Kab. Kutai Barat<br />': layer_KabKutaiBarat_6,'Kota Balikpapan<br />': layer_KotaBalikpapan_5,'Kab. Penajam Paser Utara<br />': layer_KabPenajamPaserUtara_4,'Kab. Paser<br />': layer_KabPaser_3,
-      },
-      "Basemap": {"OpenStreetMap Monochrome": layer_OpenStreetMapMonochrome_2,"Maxar": layer_Maxar_1,"Google Satellite Hybrid": layer_GoogleSatelliteHybrid_0,
-      },
-    };
-
-    var lc = L.control.groupedLayers(baseMaps, groupedOverlays, {
-      collapsed: true
-    }).addTo(map);
-
+		var lc = L.control.layers(baseMaps,{'Provinsi Kalimantan Timur<br />': layer_ProvinsiKalimantanTimur_12,'Kab. Berau<br />': layer_KabBerau_11,'Kab. Kutai Timur<br />': layer_KabKutaiTimur_10,'Kota Bontang<br />': layer_KotaBontang_9,'Kota Samarinda<br />': layer_KotaSamarinda_8,'Kutai Kartanegara<br />': layer_KutaiKartanegara_7,'Kab. Kutai Barat<br />': layer_KabKutaiBarat_6,'Kota Balikpapan<br />': layer_KotaBalikpapan_5,'Kab. Penajam Paser Utara<br />': layer_KabPenajamPaserUtara_4,'Kab. Paser<br />': layer_KabPaser_3,}).addTo(map);
         setBounds();
         </script>
 
