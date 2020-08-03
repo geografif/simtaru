@@ -12,7 +12,7 @@
 Sisi klien (peta web)
 > * Mobile friendly (responsive)
 > * Mengecek status kawasan oleh publik melalui:
->   * My location (lokasi saat ini berbasis GPS perangkat)
+>   * Ambil lokasi perangkat
 >   * Form isian titik koordinat
 >   * Unggah/drag-drop data spasial vektor (titik, garis, poligon)
 > * Layer dan legenda
@@ -21,7 +21,7 @@ Sisi klien (peta web)
 >   * Data default adalah rencana tata ruang (pola, struktur) dan basemap (Google Maps/OSM, citra satelit)
 >   * Filter dan pencarian data/layer
 > * Tautan ke fitur lain (form pengaduan)
->   * Form pengaduan dapat memasukkan lokasi saat ini atau koordinat
+>   * Form pengaduan dapat meengambil lokasi perangkat atau mengisi koordinat
 >   * Dapat dilengkapi foto (ukuran maks?)
 >   * Terdapat dasbor admin untuk membaca input pengaduan
 
