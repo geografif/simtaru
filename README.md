@@ -4,7 +4,7 @@
 > * [Referensi](https://github.com/afif-fauzan/simtaru#referensi)
 
 ### Arsitektur Web GIS
-![image](https://geo.ifip.tuwien.ac.at/imak/2009/stack_workshop/doc/_images/stack.png)
+![image](http://geo.ifip.tuwien.ac.at/imak/2009/stack_workshop/doc/_images/stack.png)
 
 
 
