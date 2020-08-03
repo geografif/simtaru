@@ -5,7 +5,7 @@
 
 ### Arsitektur Web GIS
 ![image](http://geo.ifip.tuwien.ac.at/imak/2009/stack_workshop/doc/_images/stack.png)
-
+![image](https://storage.googleapis.com/cdn.thenewstack.io/media/2017/09/2f021b01-boundless3.png)
 
 
 
@@ -18,6 +18,7 @@
 * [Geoserver](https://https://www.osgeo.org/projects/geoserver/)
 * [Leaflet Javascript](https://leafletjs.com/)
 ***
+* [Open Source GIS Implementation](https://opengislab.com/blog/2017/3/22/open-source-gis-implementation-an-experiment)
 * [Webmapping for Dummies](https://www.xyht.com/spatial-itgis/web-mapping-for-dummies-my-personal-experience/)
 * [Leaflet Drag & Drop](https://leaflet.calvinmetcalf.com)
 * [Leaflet Drag & Drop Github Repo](https://github.com/calvinmetcalf/leaflet.workspace)
