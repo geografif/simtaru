@@ -18,7 +18,7 @@ Sisi klien (peta web)
 > * Layer dan legenda
 >   * Informasi atribut layer muncul saat feature di muka peta diklik
 >   * Terdapat kontrol layer sekaligus legenda
->   * Data default adalah rencana tata ruang (pola, struktur) dan basemap (Google Maps/OpenStreetMap, citra satelit)
+>   * Data default adalah rencana tata ruang (pola, struktur) dan basemap (Google Maps/OSM, citra satelit)
 >   * Filter dan pencarian data/layer
 > * Tautan ke fitur lain (form pengaduan)
 
