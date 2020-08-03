@@ -21,6 +21,9 @@ Sisi klien (peta web)
 >   * Data default adalah rencana tata ruang (pola, struktur) dan basemap (Google Maps/OSM, citra satelit)
 >   * Filter dan pencarian data/layer
 > * Tautan ke fitur lain (form pengaduan)
+>   * Form pengaduan dapat memasukkan lokasi saat ini atau koordinat
+>   * Dapat dilengkapi foto (ukuran maks?)
+>   * Terdapat dasbor admin untuk membaca input pengaduan
 
 Sisi klien (desktop)
 > * Services (WMS / WFS), data bisa ditarik ke software desktop GIS
