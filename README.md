@@ -1,7 +1,7 @@
 ## SIMTARU
 > #### Daftar Isi
-> * [Arsitektur Web GIS](https://github.com/afif-fauzan/simtaru#arsitektur-web-gis)
-> * [Referensi](https://github.com/afif-fauzan/simtaru#referensi)
+> * [Arsitektur Web GIS](#arsitektur-web-gis)
+> * [Referensi](#referensi)
 
 ### Arsitektur Web GIS
 ![image](http://geo.ifip.tuwien.ac.at/imak/2009/stack_workshop/doc/_images/stack.png)
