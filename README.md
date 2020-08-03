@@ -11,7 +11,7 @@
 ### Fitur yang diharapkan
 Sisi klien (peta web)
 > * Mobile friendly (responsive)
-> * Mengecek status kawasan melalui
+> * Mengecek status kawasan oleh publik melalui:
 >   * My location (lokasi saat ini berbasis GPS perangkat)
 >   * Form isian titik koordinat
 >   * Unggah/drag-drop data spasial vektor (titik, garis, poligon)
@@ -19,13 +19,13 @@ Sisi klien (peta web)
 >   * Informasi atribut layer muncul saat feature di muka peta diklik
 >   * Terdapat kontrol layer sekaligus legenda
 >   * Data default adalah rencana tata ruang (pola, struktur) dan basemap (Google Maps/OpenStreetMap, citra satelit)
-> * Filter dan pencarian data/layer
+>   * Filter dan pencarian data/layer
 > * Tautan ke fitur lain (form pengaduan)
 
 Sisi klien (desktop)
 > * Services (WMS / WFS), data bisa ditarik ke software desktop GIS
 
-Database
+Sisi server atau database
 > * Input data tabular/spasial untuk dapat masuk ke database/server
 > * Dapat dilakukan secara remote via login, tidak harus di komputer Server
 > * Data baru yang diinput dapat tampil di sisi klien (sebagai peta web/services)
