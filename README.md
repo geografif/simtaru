@@ -26,8 +26,8 @@ Sisi klien (desktop)
 > * Services (WMS / WFS), data bisa ditarik ke software desktop GIS
 
 Sisi server atau database
-> * Input data tabular/spasial untuk dapat masuk ke database/server
-> * Dapat dilakukan secara remote via login, tidak harus di komputer Server
+> * Admin dapat menginput/mengedit/menghapus data tabular/spasial pada ke database/server
+> * Kegiatan tersebut di atas dapat dilakukan secara remote via login, tidak harus di komputer Server
 > * Data baru yang diinput dapat tampil di sisi klien (sebagai peta web/services)
 
 
