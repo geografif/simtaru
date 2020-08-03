@@ -7,6 +7,24 @@
 ![image](http://geo.ifip.tuwien.ac.at/imak/2009/stack_workshop/doc/_images/stack.png)
 ![image](https://storage.googleapis.com/cdn.thenewstack.io/media/2017/09/2f021b01-boundless3.png)
 
+### Fitur yang diharapkan
+Sisi klien (peta web)
+> * Mobile friendly (responsive)
+> * Melihat lokasi saat ini
+> * Input titik koordinat
+> * Kontrol layer / legenda
+> * Input data spasial vektor (titik, garis, poligon)
+> * Filter dan pencarian
+> * Tautan ke fitur lain (pengaduan)
+
+Sisi klien (desktop)
+> * Services (WMS / WFS), data bisa ditarik ke software desktop GIS
+
+Database
+> * Input data tabular/spasial untuk dapat masuk ke database/server, dan dapat ditampilkan ke sisi klien
+
+
+
 
 
 
