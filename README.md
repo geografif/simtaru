@@ -14,19 +14,20 @@
 
 
 ### Referensi
-Web GIS Infrastructure Applications
+Aplikasi infrastruktur Web GIS
 > * [ArcGIS Server](https://enterprise.arcgis.com/en/server/latest/get-started/windows/what-is-arcgis-for-server-.htm)
 > * [PostgreSQL/PostGIS](https://postgis.net/)
 > * [Geoserver](https://https://www.osgeo.org/projects/geoserver/)
 > * [Leaflet Javascript](https://leafletjs.com/)
 > * [Geonode](http://geonode.org/)
-***
-* [Open Source GIS Implementation](https://opengislab.com/blog/2017/3/22/open-source-gis-implementation-an-experiment)
-* [Webmapping for Dummies](https://www.xyht.com/spatial-itgis/web-mapping-for-dummies-my-personal-experience/)
-* [Leaflet Drag & Drop](https://leaflet.calvinmetcalf.com)
-* [Leaflet Drag & Drop Github Repo](https://github.com/calvinmetcalf/leaflet.workspace)
-***
+
+Bacaan
+> * [Open Source GIS Implementation](https://opengislab.com/blog/2017/3/22/open-source-gis-implementation-an-experiment)
+> * [Webmapping for Dummies](https://www.xyht.com/spatial-itgis/web-mapping-for-dummies-my-personal-experience/)
+> * [Leaflet Drag & Drop Github Repo](https://github.com/calvinmetcalf/leaflet.workspace)
+
 Web GIS dan Services
+> * [Leaflet Drag & Drop](https://leaflet.calvinmetcalf.com)
 > * [Web GIS BPOM](https://gis.pom.go.id/)
 > * [Geoserver Web GIS BPOM](http://gis.pom.go.id:8080/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage?1)
 > * [ArcGIS Rest Service One Data One Map Kaltim](http://222.124.31.141:6080/arcgis/rest/services)
