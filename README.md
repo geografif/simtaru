@@ -1,6 +1,7 @@
 ## SIMTARU
 > #### Daftar Isi
 > * [Arsitektur Web GIS](#arsitektur-web-gis)
+> * [Fitur yang diharapkan](#fitur-yang-diharapkan)
 > * [Referensi](#referensi)
 
 ### Arsitektur Web GIS
@@ -10,25 +11,24 @@
 ### Fitur yang diharapkan
 Sisi klien (peta web)
 > * Mobile friendly (responsive)
-> * Melihat lokasi saat ini
-> * Input titik koordinat
-> * Kontrol layer / legenda
-> * Input data spasial vektor (titik, garis, poligon)
-> * Filter dan pencarian
-> * Tautan ke fitur lain (pengaduan)
+> * Mengecek status kawasan melalui
+>   * My location (lokasi saat ini berbasis GPS perangkat)
+>   * Form isian titik koordinat
+>   * Unggah/drag-drop data spasial vektor (titik, garis, poligon)
+> * Layer dan legenda
+>   * Informasi atribut layer muncul saat feature di muka peta diklik
+>   * Terdapat kontrol layer sekaligus legenda
+>   * Data default adalah rencana tata ruang (pola, struktur) dan basemap (Google Maps/OpenStreetMap, citra satelit)
+> * Filter dan pencarian data/layer
+> * Tautan ke fitur lain (form pengaduan)
 
 Sisi klien (desktop)
 > * Services (WMS / WFS), data bisa ditarik ke software desktop GIS
 
 Database
-> * Input data tabular/spasial untuk dapat masuk ke database/server, dan dapat ditampilkan ke sisi klien
-
-
-
-
-
-
-
+> * Input data tabular/spasial untuk dapat masuk ke database/server
+> * Dapat dilakukan secara remote via login, tidak harus di komputer Server
+> * Data baru yang diinput dapat tampil di sisi klien (sebagai peta web/services)
 
 
 ### Referensi
